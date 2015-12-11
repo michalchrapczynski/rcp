@@ -1,0 +1,39 @@
+package com.capgemini.library.logic.model;
+
+public class LibraryVO {
+
+	private Long id;
+	private String name;
+
+	public LibraryVO() {
+		super();
+	}
+
+	public LibraryVO(Long id, String name) {
+		super();
+		this.id = id;
+		this.name = name;
+	}
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	@Override
+	public String toString() {
+		return name;
+	}
+
+}
